@@ -1,0 +1,16 @@
+collection_name : agent
+persist_directory : chroma_db
+k :  3
+data_path : data
+md5_hex_store : md5.txt
+allow_knowledge_file_type : ["txt","pdf"]
+
+chunk_size : 200
+chunk_overlap : 20
+separators : ["\n\n","。",".","?","？","!"," ",""]
+
+# 混合检索配置
+retrieval_type : hybrid          # 可选: vector / hybrid
+bm25_weight : 0.4                # BM25 关键词检索权重
+vector_weight : 0.6              # 向量语义检索权重
+

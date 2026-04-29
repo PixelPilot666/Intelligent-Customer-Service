@@ -1,0 +1,72 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Runtime generated data
+# =========================
+chroma_db/
+md5.txt
+
+# 本地嵌入模型文件（体积大，按需下载）
+model/Xorbits/
+model/shibing624/
+
+# Claude Code 工作目录
+.claude/
+
+# Optional: if you later generate temp reports locally
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
