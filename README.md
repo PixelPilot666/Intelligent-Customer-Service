@@ -176,11 +176,5 @@ streamlit run app.py
 - Langchain / LangGraph
 - Streamlit
 - Chroma
-- Alibaba Cloud DashScope
+- Kimi
 
----
-
-### ⭐ Final
-- 本项目仅为学习与交流，如果觉得这个项目有帮助，别忘了点个Star！
-
----
